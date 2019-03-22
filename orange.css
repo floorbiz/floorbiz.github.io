@@ -1,0 +1,58 @@
+/* Main Layout */
+
+body {
+	background:#f3e6d2;
+}
+
+.category_menu_header {
+	background:#ffa71d;
+	color:#333;
+}
+
+#footer {
+	border-top:1px solid #f19300;
+}
+
+#footer a {
+	text-decoration:none;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
+
+/* Search */
+
+#search {
+	background:#fff;
+}
+
+/* Font styling */
+
+a {
+	color:#f19300;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#b87100;
+	text-decoration:underline;
+}
+
+/* Category Menu */
+
+.menu_level0 a, .menu_level1 a, .menu_level2 a {
+	background: #ffa71d;
+	color:#333;
+}
+
+.menu_level0 a:hover, .menu_level1 a:hover, .menu_level2 a:hover, .menu_level0_sel a {
+	background: #f19300;
+	color:#333;
+}
+
+/* Listings */
+
+.category_product_title a {
+	color: #f19300;
+}

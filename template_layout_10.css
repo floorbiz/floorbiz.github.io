@@ -1,0 +1,64 @@
+/* Elements to define layouts */
+
+body{
+padding:0;
+}
+
+#container{
+width:905px;
+background:#fff;
+padding:0 10px;
+margin:0 auto;
+}
+
+.container{}
+
+#header{}
+
+#header_main{
+text-align:right;
+margin:0 0 0 480px;
+padding:10px 0 0 0;
+}
+
+#header_left{
+margin:0 0 0 -100%;
+width:480px;
+float:left;
+}
+
+#header_right{
+clear:both;
+padding:0 0 10px 0;
+}
+
+#content{}
+
+#content_main{
+margin:0 0 0 155px;
+padding:0 0 10px 0;
+}
+
+#content_left{
+float:left;
+width:145px;
+margin:0 0 0 -100%;
+padding:0 0 10px 0;
+}
+
+#content_right{}
+
+#footer{
+clear:both;
+}
+
+#footer_container{}
+
+#footer_main{
+margin:0;
+text-align:center;
+}
+
+#footer_left{}
+
+#footer_right{}
